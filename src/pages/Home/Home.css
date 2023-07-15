@@ -1,0 +1,38 @@
+/* input[type="text"] {
+  padding: 6px;
+  margin-top: 2rem;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-bottom: 25rem;
+  margin-left: 100px;
+} */
+
+.Barre {
+  padding: 6px;
+  font-size: 17px;
+}
+
+.container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Titre {
+  margin-top: 5rem;
+  /* margin-right: 17px; */
+  text-transform: uppercase;
+  text-align: center;
+}
+.Home {
+  text-align: center;
+  background-color: #9ccd62;
+}
+
+.description {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
