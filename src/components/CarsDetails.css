@@ -16,16 +16,20 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: px;
-  grid-row-gap: 0px;
+  grid-row-gap: 4px;
   text-align: center;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  /* margin-left: 15rem;
+  margin-right: 15rem; */
+  border: 3px inset #000000;
+  width: 1000px;
+  /* margin-left: 116px; */
 }
 
 .text_brut {
   font-weight: bold;
 }
-.Tout {
-  /* background-color: #555a54; */
-  /* margin-bottom: 25rem; */
+
+.tout {
+  display: flex;
+  justify-content: center;
 }
