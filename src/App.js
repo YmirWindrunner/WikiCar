@@ -20,6 +20,7 @@ export default function App() {
           <Route path="/cars" element={<Cars />} />
           <Route path="/error" element={<NoPage />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
