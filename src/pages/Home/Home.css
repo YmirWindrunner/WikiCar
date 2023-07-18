@@ -24,15 +24,19 @@
   /* margin-right: 17px; */
   text-transform: uppercase;
   text-align: center;
+  text-shadow: -1px -1px 1px #aaa, 0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
 }
 .Home {
   text-align: center;
-  background-color: #9ccd62;
 }
 
 .description {
-  height: 100px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  /* border: 3px inset #000000;
+  width: 600px;
+  height: 150px; */
 }

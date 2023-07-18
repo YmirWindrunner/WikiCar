@@ -58,8 +58,7 @@ export default function Home() {
   };
 
   return (
-    <div className="div">
-      <h2 className="Home">Home Page</h2>
+    <div className="my-div">
       <p className="Titre">CAR TRACKER</p>
       <div className="container">
         <form onSubmit={fetchUserData}>
@@ -75,7 +74,7 @@ export default function Home() {
         </form>
       </div>
       <div className="description">
-        <h2>ezktheziokthze</h2>
+        <h3>Search for your favorits models</h3>
       </div>
     </div>
   );
